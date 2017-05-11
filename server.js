@@ -2,7 +2,7 @@
  * Created by faridjafaroff on 5/11/17.
  */
 var express = require('express');
-var app = express(), PORT = 3000;
+var app = express(), PORT = process.env.PORT || 3000;
 
 var middleware = require('./middleware.js');
 
